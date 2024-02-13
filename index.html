@@ -90,25 +90,25 @@
                         </div>
                     </div>
                 </div>
-                <!-- triangle -->
+                <!-- Rhombus -->
                 <div class="card bg-base-100 shadow-xl">
-                    <figure><img class="p-3" src="images/triangle.png" alt="Shoes" /></figure>
+                    <figure><img class="p-3" src="images/rhombus.png" alt="Shoes" /></figure>
                     <div class="p-2">
-                        <h2 class="card-title">Triangle</h2>
-                        <p class="text-center text-3xl">Area = 0.5 X b X h </p>
+                        <h2 class="card-title">Rhombus</h2>
+                        <p class="text-center text-3xl">Area = 0.5 X d<sub>1</sub> X d<sub>2</sub> </p>
                         <div class="flex my-3 items-center gap-1 md:gap-3">
-                            <input class="w-24 rounded-lg p-1 text-2xl border-2" type="text" placeholder="b"
-                                id="triangle-base">
+                            <input class="w-24 rounded-lg p-1 text-2xl border-2" type="text" placeholder="d1"
+                                id="rhombus-d1">
                             <span>cm</span>
-                            <input class="w-24 rounded-lg p-1 text-2xl border-2" type="text" id="triangle-height"
-                                placeholder="h">
+                            <input class="w-24 rounded-lg p-1 text-2xl border-2" type="text" id="rhombus-d2"
+                                placeholder="d2">
                             <span>cm</span>
                         </div>
                         <div class="my-2">
-                            <p class="text-2xl">Area: <span id="triangle-area">0</span> <span>cm<sup>2</sup></span></p>
+                            <p class="text-2xl">Area: <span id="rhombus-area">0</span> <span>cm<sup>2</sup></span></p>
                         </div>
                         <div class="card-actions ">
-                            <button onclick="" class="btn w-full btn-primary">Calculate</button>
+                            <button onclick="calculateRhombusArea()" class="btn w-full btn-primary">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -126,6 +126,7 @@
     <script src="scripts/triangle-calculate.js"></script>
     <script src="scripts/rectangleArea.js"></script>
     <script src="scripts/parallelogram.js"></script>
+    <script src="scripts/rhombus.js"></script>
 </body>
 
 </html>
